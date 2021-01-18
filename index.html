@@ -23,9 +23,10 @@
 	<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
 	<link rel="shortcut icon" href="resources/favicon.ico">
 
-	<link href="https://fonts.googleapis.com/css?family=Montserrat:500,700" rel="stylesheet">
-	<link href="https://cdn.rawgit.com/moonspam/NanumSquare/master/nanumsquare.css" rel="stylesheet">
-
+	<link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Noto+Sans+KR:300,400,500,700&amp;subset=korean" rel="stylesheet">
+	
 	<!-- Animate.css -->
 	<link rel="stylesheet" href="resources/css/animate.css">
 	<!-- Icomoon Icon Fonts-->
@@ -49,8 +50,12 @@
 	<script src="js/respond.min.js"></script>
 	<![endif]-->
 	<!-- 폰트 추가 -->
-	<link rel="stylesheet" href="fonts/text/Montserrat">
-
+	<link href="http://fonts.googleapis.com/earlyaccess/jejugothic.css" rel="stylesheet">
+	<style>
+		.jejuGothic
+			{font-family: 'Jeju Gothic', sans-serif;
+			 font-size: 16px}
+	</style>
 	</head>
 	<body>
 	<div id="colorlib-page">
@@ -97,7 +102,7 @@
 				</span>
 				<span>
 				<i class="icon-mail" aria-hidden="true"></i>
- 				0109bsh@kakao.com
+ 				0109bsh@gmail.com
  				</span>
 				</small>
 				
@@ -171,8 +176,9 @@
 									<div class="about-desc">
 										<span class="heading-meta">About Us</span>
 										<h2 class="colorlib-heading">Who Am I?</h2>
-										<p><strong>‘현실에 주저하지 않고 보다 나은 미래를 위해 앞으로 나아가자’</strong> 라는 저의 좌우명이 있습니다. <br>
-										현재는 e-Commerce 회사에서 웹 개발자로 재직중인 초급 개발자 백승한입니다.</p>
+										<p class="jejuGothic"><strong>‘현실에 주저하지 않고 보다 나은 미래를 위해 앞으로 나아가자’</strong> 라는 저의 좌우명이 있습니다. <br>
+										전부터 하고 싶었던 프로그래밍에 대해 공부하고자 전주 한국 스마트 정보 교육원(KSMART)에서 교육을 이수하고 <br>
+										현재는 e-Commerce Platform에 대해 배우고 있는 초급 개발자 백승한입니다.</p>
 										<!-- href="/download/file/resumeTest.pdf" (다운로드) -->
 										<!-- <p><a class="btn btn-primary btn-learn" href="#">Resume <i class="icon-download4"></i></a></p> -->
 									</div>
@@ -187,27 +193,25 @@
 							</div>
 							<div class="row">
 								<div class="col-md-12 animate-box" data-animate-effect="fadeInLeft">
-									<p>Java를 이용하여 SpringMVC패턴을 이용한 프로젝트를 OOP로 설계하고 진행할 수 있습니다.<br>
-										그리고 RDBMS(MSSQL)와 NoSQL(MongoDB)을 이용한 데이터베이스 관리를 진행할 수 있으며<br>
-										JavaScript와 JQuery를 이용하여 동적 처리 및 동기, 비동기 요청을 구현할 수 있습니다.<br>
-										또 Swift의 기본적인 개념과 프로젝트 용어 해석을 할 수 있습니다.<br>
-										현재는 JPA와 NoSQL(MongoDB) 그리고 Swift에 대해 공부하고 있습니다.<br>
-									</p>
+									<p class="jejuGothic">Java는 객체지향과 디자인 패턴에 대해 이해 하였으며 DAO,VO,MVC등 개념을 이용해서 서버를 설계할 수 있습니다.<br>
+										SQL은 DDL, DML 등 전반적인 이론 개념을 이해 하였고 Oracle, Mysql를 이용해서 Query를 통해 기본적인 설계 및 구현을 할 수 있습니다.<br>
+										JavaScript는 기본적인 개념에 대해 알고 있으며 JQuery를 이용하여 유효성검사 기능과 Ajax를 이용한 비동기식 요청을 구현할 수 있습니다.<br>
+										HTML/CSS는 웹 표준, 웹 접근성 등의 기본 규격에 맞춰 화면을 구성하고 작성을 할 수 있습니다.</p>
 								</div>
 								<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
 									<div class="progress-wrap">
-										<h3>Java / SpringMVC / JPA</h3>
+										<h3>Java / JSP&Servlet(Thymeleaf, JSTL), SpringMVC</h3>
 										<div class="progress">
-										 	<div class="progress-bar color-1" role="progressbar" aria-valuenow="80"
-										  	aria-valuemin="0" aria-valuemax="100" style="width:80%">
-										    <span>80%</span>
+										 	<div class="progress-bar color-1" role="progressbar" aria-valuenow="85"
+										  	aria-valuemin="0" aria-valuemax="100" style="width:85%">
+										    <span>85%</span>
 										  	</div>
 										</div>
 									</div>
 								</div>
 								<div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
 									<div class="progress-wrap">
-										<h3>NoSQL(MongoDB) / RDBMS(MSSQL)</h3>
+										<h3>SQL / Oracle, MySQL</h3>
 										<div class="progress">
 										 	<div class="progress-bar color-2" role="progressbar" aria-valuenow="70"
 										  	aria-valuemin="0" aria-valuemax="100" style="width:70%">
@@ -218,7 +222,7 @@
 								</div>
 								<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
 									<div class="progress-wrap">
-										<h3>JavaScript / JQuery / JSP&Servlet(EL, JSTL)</h3>
+										<h3>JavaScript / JQuery / Ajax</h3>
 										<div class="progress">
 										 	<div class="progress-bar color-3" role="progressbar" aria-valuenow="70"
 										  	aria-valuemin="0" aria-valuemax="100" style="width:70%">
@@ -229,11 +233,11 @@
 								</div>
 								<div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
 									<div class="progress-wrap">
-										<h3>Swift</h3>
+										<h3>HTML&CSS</h3>
 										<div class="progress">
-										 	<div class="progress-bar color-4" role="progressbar" aria-valuenow="10"
-										  	aria-valuemin="0" aria-valuemax="100" style="width:10%">
-										    <span>10%</span>
+										 	<div class="progress-bar color-4" role="progressbar" aria-valuenow="60"
+										  	aria-valuemin="0" aria-valuemax="100" style="width:60%">
+										    <span>60%</span>
 										  	</div>
 										</div>
 									</div>
@@ -445,8 +449,7 @@
 					<div class="row">
 						<div class="col-md-12">
 				         <div class="timeline-centered">
-
-					         <article class="timeline-entry animate-box" data-animate-effect="fadeInTop">
+					         <article class="timeline-entry animate-box" data-animate-effect="fadeInLeft">
 					            <div class="timeline-entry-inner">
 
 					               <div class="timeline-icon color-1">
@@ -473,10 +476,21 @@
 					            </div>
 					         </article>
 					         
-							-->
 					         <article class="timeline-entry animate-box" data-animate-effect="fadeInLeft">
 					            <div class="timeline-entry-inner">
-					               <div class="timeline-icon color-2">
+					               <div class="timeline-icon color-3">
+					                  <i class="icon-pen2"></i>
+					               </div>
+					               <div class="timeline-label">
+					               	<h2><a href="#">System Analyst</a> <span>2017-2018</span></h2>
+					                  <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.</p>
+					               </div>
+					            </div>
+					         </article>
+							-->
+					         <article class="timeline-entry animate-box" data-animate-effect="fadeInTop">
+					            <div class="timeline-entry-inner">
+					               <div class="timeline-icon color-4">
 					                  <i class="icon-pen2"></i>
 					               </div>
 					               <div class="timeline-label">
@@ -489,18 +503,12 @@
 
 					         <article class="timeline-entry animate-box" data-animate-effect="fadeInLeft">
 					            <div class="timeline-entry-inner">
-					               <div class="timeline-icon color-3">
+					               <div class="timeline-icon color-2">
 					                  <i class="icon-pen2"></i>
 					               </div>
 					               <div class="timeline-label">
-					               	<h2><a href="http://zen9.co.kr/">Zen9 Soft</a> <span>2019.05 ~ </span></h2>
-					                  <p>E-Commerce platform Developing
-										  <br/>
-										  <br/>
-										  	<label>Participating Project : </label>
-										  <br/>2019.05 ~ 2020.03 : Namyang_I_Mall (Deployment and Operation)
-										  <br/>2020.03 ~ : Namyang_CareB  (Deployment and Operation)
-									  </p>								
+					               	<h2><a href="http://zen9.co.kr/">zen9 Soft</a> <span>2019.05 ~ </span></h2>
+					                  <p>Developing e-Commerce platform</p>
 					               </div>
 					            </div>
 					         </article>
@@ -527,7 +535,7 @@
 					</div>
 					<div class="row row-bottom-padded-sm animate-box" data-animate-effect="fadeInLeft">
 						<div class="col-md-12">
-							<p class="work-menu"><span><a href="" data-nav-section="work"></a></span></p>
+							<p class="work-menu"><span><a href="#" data-nav-section="work">Team project created during Ksmart education</a></span></p>
 						</div>
 					</div>
 					<div class="row">
@@ -535,10 +543,8 @@
 							<div class="project" style="background-image: url(resources/images/img-1.jpg);">
 								<div class="desc">
 									<div class="con">
-										<h3><a href="https://shopping.namyangi.com/main/main">남양아이</a></h3>
-										<span>담당 파트> </span>
-										<span>[BO] 운영관리</span>
-										<span>[FO, MO] 마이페이지 - 주문내역 및 회원관련</span>
+										<h3><a href="https://github.com/Mushbird/YBproject">Bank System</a></h3>
+										<span>Gold Trade</span>
 										<!-- 
 										<p class="icon">
 											<span><a href="#"><i class="icon-share3"></i></a></span>
@@ -554,12 +560,8 @@
 							<div class="project" style="background-image: url(resources/images/img-2.jpg);">
 								<div class="desc">
 									<div class="con">
-										<h3><a href="https://careb.namyangi.com/main/main">케어비몰</a></h3>
-										<span>담당 파트 > </span>
-										<span>[BO] 주문 및 배송관리 </span>
-										<span>[BO] 정산관리 > PG정산대사 </span>
-										<span>[FO, MO] 주문 (상품 상세 ~ 주문 완료)</span>
-										<span>[FO, MO] 마이페이지 (주문 내역 및 식단관리(식단 및 배송스케줄 변경)</span>
+										<h3><a href="https://github.com/Mushbird/springBoard">BoardList</a></h3>
+										<span>Board</span>
 										<!-- 
 										<p class="icon">
 											<span><a href="#"><i class="icon-share3"></i></a></span>
@@ -571,47 +573,47 @@
 								</div>
 							</div>
 						</div>
-						<!-- <div class="col-md-6 animate-box" data-animate-effect="fadeInTop">
+						<div class="col-md-6 animate-box" data-animate-effect="fadeInTop">
 							<div class="project" style="background-image: url(resources/images/img-3.jpg);">
 								<div class="desc">
 									<div class="con">
 										<h3><a href="https://github.com/Mushbird/GameTransactionSystem">I View</a></h3>
 										<span>GameTradeSystem</span>
-										 
+										<!-- 
 										<p class="icon">
 											<span><a href="#"><i class="icon-share3"></i></a></span>
 											<span><a href="#"><i class="icon-eye"></i> 100</a></span>
 											<span><a href="#"><i class="icon-heart"></i> 49</a></span>
 										</p> 
-										
+										-->
 									</div>
 								</div>
 							</div>
-						</div> -->
-						<!-- <div class="col-md-6 animate-box" data-animate-effect="fadeInBottom">
+						</div>
+						<div class="col-md-6 animate-box" data-animate-effect="fadeInBottom">
 							<div class="project" style="background-image: url(resources/images/img-5.jpg);">
 								<div class="desc">
 									<div class="con">
 										<h3><a href="http://ksmart30.cafe24.com/">ERP</a></h3>
 										<span>Civil Engineering Architectural Design system</span>
-										
+										<!-- 
 										<p class="icon">
 											<span><a href="#"><i class="icon-share3"></i></a></span>
 											<span><a href="#"><i class="icon-eye"></i> 100</a></span>
 											<span><a href="#"><i class="icon-heart"></i> 49</a></span>
 										</p> 
-										
+										-->
 									</div>
 								</div>
 							</div>
-						</div> -->
+						</div>
 						
 					</div>
-					<!-- <div class="row">
+					<div class="row">
 						<div class="col-md-12 animate-box">
 							<p><a href="https://github.com/Mushbird" class="btn btn-primary btn-lg btn-load-more">Load more <i class="icon-reload"></i></a></p>
 						</div>
-					</div> -->
+					</div>
 				</div>
 			</section>
 <!-- blog -->
@@ -620,46 +622,46 @@
 					<div class="row">
 						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
 							<span class="heading-meta">Read</span>
-							<h2 class="colorlib-heading">Blog</h2>
+							<h2 class="colorlib-heading">Popular Blog</h2>
 						</div>
 					</div>
 					<div class="row">
-						<div class="col-md-6 col-sm-6 animate-box" data-animate-effect="fadeInLeft">
+						<div class="col-md-4 col-sm-6 animate-box" data-animate-effect="fadeInLeft">
 							<div class="blog-entry">
-								<a href="https://blog.naver.com/nestless" class="blog-img"><img src="resources/images/blog-1.jpg" class="img-responsive" alt="HTML5 Bootstrap Template by colorlib.com"></a>
+								<a href="https://blog.naver.com/nestless/221511380858" class="blog-img"><img src="resources/images/blog-1.jpg" class="img-responsive" alt="HTML5 Bootstrap Template by colorlib.com"></a>
 								<div class="desc">
-									<span><small>Nomember 5, 2019 ~ January 7, 2021</small> | <small> 소소 </small></span>
-									<h3><a href="https://blog.naver.com/nestless">네이버 블로그 (교육원 일지)</a></h3>
-									<p> 교육원 이수동안 작성했던 블로그와 개발블로그 이전에 사용된 블로그 </p>
+									<span><small>April 11, 2019 </small> | <small> 푸시키 </small> | <small> <i class="icon-bubble3"></i> 4</small></span>
+									<h3><a href="https://blog.naver.com/nestless/221511380858">[108일] 급여 계산 전에 해야할 일</a></h3>
+									<p class="jejuGothic"> [키워드] 급여 계산에 필요한 4대보험 DB테이블 만들기 </p>
 								</div>
 							</div>
 						</div>
-						<div class="col-md-6 col-sm-6 animate-box" data-animate-effect="fadeInRight">
+						<div class="col-md-4 col-sm-6 animate-box" data-animate-effect="fadeInRight">
 							<div class="blog-entry">
-								<a href="https://velog.io/@hemb1_9" class="blog-img"><img src="resources/images/blog-2.jpg" class="img-responsive" alt="HTML5 Bootstrap Template by colorlib.com"></a>
+								<a href="https://blog.naver.com/nestless/221404523113" class="blog-img"><img src="resources/images/blog-2.jpg" class="img-responsive" alt="HTML5 Bootstrap Template by colorlib.com"></a>
 								<div class="desc">
-									<span><small>January 8, 2021 </small> | <small> Mushbird </small></span>
-									<h3><a href="https://velog.io/@hemb1_9">벨로그 (기술)</a></h3>
-									<p> 새롭게 시작하는 일기장 겸 기술 블로그</p>
+									<span><small>November 23, 2018 </small> | <small> 푸시키 </small> | <small> <i class="icon-bubble3"></i> 4</small></span>
+									<h3><a href="https://blog.naver.com/nestless/221404523113">[15일] jsp와 java가 만나다.</a></h3>
+									<p class="jejuGothic"> [키워드] 하나의 패키지에서 서로다른 패키지, jsp와 java를 접목, 실습</p>
 								</div>
 							</div>
 						</div>
-						<!-- <div class="col-md-4 col-sm-6 animate-box" data-animate-effect="fadeInLeft">
+						<div class="col-md-4 col-sm-6 animate-box" data-animate-effect="fadeInLeft">
 							<div class="blog-entry">
 								<a href="https://blog.naver.com/nestless/221436572579" class="blog-img"><img src="resources/images/blog-3.jpg" class="img-responsive" alt="HTML5 Bootstrap Template by colorlib.com"></a>
 								<div class="desc">
 									<span><small>January 7, 2019 </small> | <small> 푸시키 </small> | <small> <i class="icon-bubble3"></i> 4</small></span>
 									<h3><a href="https://blog.naver.com/nestless/221436572579">[44일] 다시 만들어보는 Java model 1</a></h3>
-									<p> [키워드] model1, CRUD</p>
+									<p class="jejuGothic"> [키워드] model1, CRUD</p>
 								</div>
 							</div>
-						</div> -->
+						</div>
 					</div>
-					<!-- <div class="row">
+					<div class="row">
 						<div class="col-md-12 animate-box">
 							<p><a href="https://blog.naver.com/nestless" class="btn btn-primary btn-lg btn-load-more">Load more <i class="icon-reload"></i></a></p>
 						</div>
-					</div> -->
+					</div>
 				</div>
 			</section>
 			<br>
